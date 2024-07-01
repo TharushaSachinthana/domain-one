@@ -4,7 +4,7 @@ jobs:
    show-info:
      runs-on: ubuntu-latest 
      steps: 
-     -name: Info
+     - name: Info
        run: 
            echo "This is a push event on all the branches"
     
